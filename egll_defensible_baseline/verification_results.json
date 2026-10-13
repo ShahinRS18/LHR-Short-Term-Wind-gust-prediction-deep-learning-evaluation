@@ -1,0 +1,138 @@
+[
+  {
+    "check": "exact t excluded, exact t+1h included",
+    "passed": true
+  },
+  {
+    "check": "00:20 belongs to future target at 00:00",
+    "passed": true
+  },
+  {
+    "check": "threshold inclusive without rounding",
+    "passed": true
+  },
+  {
+    "check": "forecast and remarks are separate, not observed gust",
+    "passed": true
+  },
+  {
+    "check": "missing numeric gust preserved while covered negative allowed",
+    "passed": true
+  },
+  {
+    "check": "missing routine report creates unknown",
+    "passed": true
+  },
+  {
+    "check": "SPECI does not replace missing routine slot",
+    "passed": true
+  },
+  {
+    "check": "unresolved record prevents negative",
+    "passed": true
+  },
+  {
+    "check": "accepted positive survives coverage uncertainty",
+    "passed": true
+  },
+  {
+    "check": "closed archive endpoint uncertain negative",
+    "passed": true
+  },
+  {
+    "check": "unestablished cadence leaves nonpositive unknown",
+    "passed": true
+  },
+  {
+    "check": "COR AUTO and variable wind supported",
+    "passed": true
+  },
+  {
+    "check": "MPS and KMH conversion",
+    "passed": true
+  },
+  {
+    "check": "suspicious value retained but quarantined",
+    "passed": true
+  },
+  {
+    "check": "malformed main wind quarantined",
+    "passed": true
+  },
+  {
+    "check": "unique correction supersedes original retrospective report",
+    "passed": true
+  },
+  {
+    "check": "conflicting corrections quarantined",
+    "passed": true
+  },
+  {
+    "check": "identical duplicate retained but not counted twice",
+    "passed": true
+  },
+  {
+    "check": "month/year/leap boundary 2019-12-31T23:50:00+00:00",
+    "passed": true
+  },
+  {
+    "check": "month/year/leap boundary 2020-02-29T23:50:00+00:00",
+    "passed": true
+  },
+  {
+    "check": "month/year/leap boundary 2020-03-01T00:00:00+00:00",
+    "passed": true
+  },
+  {
+    "check": "shuffled source rows retain full keyed alignment",
+    "passed": true
+  },
+  {
+    "check": "missing row is detected, never truncated",
+    "passed": true
+  },
+  {
+    "check": "duplicate source key fails cardinality validation",
+    "passed": true
+  },
+  {
+    "check": "actual predictors never exceed origin",
+    "passed": true
+  },
+  {
+    "check": "actual predictor age is within declared tolerance",
+    "passed": true
+  },
+  {
+    "check": "future target and coverage fields excluded from predictor table",
+    "passed": true
+  },
+  {
+    "check": "actual unknown targets have no binary label",
+    "passed": true
+  },
+  {
+    "check": "actual negative windows meet two-slot coverage and have no unresolved records",
+    "passed": true
+  },
+  {
+    "check": "independent raw main-gust count",
+    "passed": true
+  },
+  {
+    "check": "independent raw threshold-report count",
+    "passed": true
+  },
+  {
+    "check": "source manifest hashes unchanged",
+    "passed": true
+  },
+  {
+    "check": "all states reconcile to full study grid",
+    "passed": true
+  },
+  {
+    "check": "independent positive hourly origins with closed-right windows",
+    "passed": true
+  }
+]

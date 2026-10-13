@@ -1,0 +1,31 @@
+{
+  "raw_report_rows": 349995,
+  "accepted_retrospective_report_rows": 349985,
+  "excluded_report_rows": 10,
+  "unresolved_report_rows": 10,
+  "identical_duplicate_rows": 0,
+  "superseded_report_rows": 0,
+  "correction_marked_rows": 296455,
+  "accepted_gust_report_rows": 7662,
+  "accepted_exceedance_report_rows": 3450,
+  "suspicious_speed_rows": 0,
+  "hourly_origins": 175320,
+  "target_states": {
+    "negative": 171955,
+    "positive": 2817,
+    "unknown": 548
+  },
+  "unknown_reason_counts": {
+    "missing_or_invalid_routine_slot": 537,
+    "missing_or_invalid_routine_slot;unresolved_record_may_affect_target": 8,
+    "unresolved_record_may_affect_target": 3
+  },
+  "verified_months": 240,
+  "netcdf_files_rechecked": 80,
+  "sounding_keys": 175320,
+  "predictor_rows_without_recent_candidate": 111,
+  "predictor_rows_with_unresolved_recent_record": 12,
+  "last_archive_time_utc": "2024-12-31T23:50:00Z",
+  "independent_event_count": null,
+  "independent_event_count_status": "not defined: hourly positives are not independent events"
+}
